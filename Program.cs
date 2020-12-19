@@ -26,8 +26,10 @@ namespace HashTable
             htable.Add("Running shorts", 30);
             htable.Add("Water bottle", 14);
             htable.Add("Tank top", 12);
+            htable.Add("Fitness watch", 150);
 
-            Console.WriteLine("Store pricing");
+
+            Console.WriteLine("-=Fitness item pricing=-");
             ICollection htKeys = htable.Keys;
             Console.WriteLine("\nThe available workout gear are: ");
             foreach (string str in htKeys)
